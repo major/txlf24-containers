@@ -39,10 +39,10 @@ jobs:
         with:
           node-version: latest
 
-      - name: Setup Hugo
+      - name: Setup reveal-md
         run: npm install -g reveal-md
 
-      - name: Build with Hugo
+      - name: Build with reveal-md
         run: reveal-md slides.md --static public --static-dirs=assets
 
       - name: Upload artifact
