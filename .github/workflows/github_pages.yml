@@ -43,7 +43,7 @@ jobs:
         run: npm install -g reveal-md
 
       - name: Build with reveal-md
-        run: reveal-md slides.md --static public --static-dirs=assets
+        run: reveal-md slides.md --static public --static-dirs=assets --absolute-url https://txlf24-containers.major.io/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
