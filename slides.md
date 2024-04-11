@@ -94,13 +94,13 @@ Shipped as images (tarballs) <!-- .element: class="fragment" -->
 
 ## Containers are:
 
-Very fast when starting up <!-- .element: class="fragment" -->
+Very fast when starting up
 
-At the core of Kubernetes and OpenShift <!-- .element: class="fragment" -->
+At the core of Kubernetes and OpenShift
 
-Great for desktops, laptops,<br>cloud instances and servers <!-- .element: class="fragment" -->
+Great for desktops, laptops,<br>cloud instances and servers
 
-Easily signed with [cosign](https://github.com/sigstore/cosign) for integrity checking <!-- .element: class="fragment" -->
+Easily signed with [cosign](https://github.com/sigstore/cosign) for integrity checking
 
 ----
 
@@ -123,6 +123,9 @@ Additional OS packages or<br>language-specific packages/modules <!-- .element: c
 Your application <!-- .element: class="fragment" -->
 
 Initial startup instructions <!-- .element: class="fragment" -->
+
+Note:
+Configuration NOT included.
 
 ----
 
@@ -397,7 +400,7 @@ sudo usermod --append --groups docker core
 
 # Allow user processes (our containers) to "linger"
 # if we log out
-loginctl enable-linger major
+loginctl enable-linger core
 ```
 
 Also install docker-compose via
