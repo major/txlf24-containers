@@ -3,6 +3,7 @@ title: Automated container updates with GitHub and CoreOS
 revealOptions:
   controlsTutorial: false
   slideNumber: true
+  transitions: fade
 theme: black
 ---
 
