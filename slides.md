@@ -41,7 +41,7 @@ My excitement and enthusiasm around containers<bR>_cannot be contained._
 
 📚 Point to resources for more learning <!-- .element: class="fragment" -->
 
-👨‍🦳 Share more container-related dad jokes. <!-- .element: class="fragment" -->
+💸 Do everything on a tiny budget <!-- .element: class="fragment" -->
 
 ----
 
@@ -146,11 +146,17 @@ ENTRYPOINT ["/app/my_app.py"]
 
 ----
 
+# Time out
+
+![](assets/wwf-ref.gif) <!-- .element: height="350em" -->
+
+----
+
 ## ⚠️ Warning ⚠️
 
-Never build your container from an image that you do not trust or have not verified.
+Always build your container from an image<br>that you trust and have verified.
 
-You are bringing that base image into contact with your application and its data.
+You are bringing that base image into<br>contact with your application and its data.
 
 ----
 
@@ -161,6 +167,14 @@ I hear about kubernetes ***a lot.***
 ----
 
 Kubernetes helps with orchestrating containers and other resources along with all of their dependencies.
+
+----
+
+Someone once said:
+
+> "If you have a problem with containers, try kubernetes.
+>
+> Then you have two problems."
 
 ---
 
