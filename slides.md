@@ -186,6 +186,12 @@ Someone once said:
 
 ----
 
+# Not this
+
+![](assets/oreos.png) <!-- .element: height="400em" -->
+
+----
+
 The Fedora marketing team has<br> the most concise summary:
 
 ![coreos](assets/fedora-coreos-header.png)
