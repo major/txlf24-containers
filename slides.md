@@ -213,6 +213,13 @@ Goodbye, cloud-init. Hello, [ignition](https://coreos.github.io/ignition/)!
 
 4. Automated updates for all! 🎉
 
+----
+
+I'll use [docker-compose](https://github.com/docker/compose) for these examples,<br>
+but you can also use [quadlets](https://major.io/p/quadlets-replace-docker-compose/)!
+
+![](assets/big_lebowski.gif)
+
 ---
 
 ## Librespeed
@@ -237,7 +244,21 @@ services:
 
 We're using the latest available librespeed container.
 
+----
+
+Librespeed is up and ready to go!
+
+What about those updates?
+
+# 🤔
+
 ---
+
+Hello, watchtower!
+
+![](assets/watchtower.png)  <!-- .element: height="500em" -->
+
+----
 
 [Watchtower](https://github.com/containrrr/watchtower) monitors for container
 repository updates and keeps our containers updated locally.
@@ -252,6 +273,8 @@ repository updates and keeps our containers updated locally.
     restart: unless-stopped
     privileged: true
 ```
+
+See my [watchtower blog post](https://major.io/p/watchtower/) for more details.
 
 ----
 
@@ -383,8 +406,7 @@ example.com {
 }
 ```
 
-Place this in <!-- .element: class="smaller" -->
-`./caddy/Caddyfile` <!-- .element: class="smaller" -->
+Place this in `./caddy/Caddyfile`
 
 ----
 
@@ -401,9 +423,6 @@ sudo usermod --append --groups docker core
 # if we log out
 loginctl enable-linger core
 ```
-
-Also install docker-compose via
-[GitHub releases](https://github.com/docker/compose/releases)
 
 ----
 
