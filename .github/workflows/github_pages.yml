@@ -46,7 +46,7 @@ jobs:
         run: reveal-md slides.md --static public --static-dirs=assets --absolute-url https://txlf24-containers.major.io --featured-slide 0.1
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
 
